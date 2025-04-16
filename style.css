@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #fff7fb;
+    color: #333;
+  }
+  
+  header {
+    background: #cc0066;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: #ffe6f0;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #cc0066;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .hero button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #cc0066;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .goals {
+    padding: 2rem;
+    background: white;
+    text-align: center;
+  }
+  
+  .goal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .goal-card {
+    background: #fbe3ef;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .cta-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: #cc0066;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .spotlight {
+    background: #fff0f8;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .spotlight-card {
+    background: white;
+    display: inline-block;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background: #cc0066;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
